@@ -1,0 +1,40 @@
+html {
+  background-image: url(https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/11/20/755485-heaven-istock-111818.jpg);
+  background-size: cover;
+}
+
+.default-title {
+  color: aliceblue;
+  text-align: center;
+  font-size: 60px;
+}
+
+.hide {
+  display: none;
+}
+
+.angel-number-detected {
+  color: aliceblue;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 60px;
+}
+
+.nonangel-time {
+  color: aliceblue;
+  margin: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.angels-img {
+  width: 200px;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 4s ease;
+}
+
+.angel-left-appear {
+  transform: translateX(100px) translateY(-100px);
+  opacity: 1;
+}
