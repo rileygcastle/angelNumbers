@@ -1,6 +1,8 @@
 html {
   background-image: url(https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/11/20/755485-heaven-istock-111818.jpg);
   background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 .default-title {
@@ -37,4 +39,37 @@ html {
 .angel-left-appear {
   transform: translateX(100px) translateY(-100px);
   opacity: 1;
+}
+
+.what-are {
+  color:rgb(97, 97, 100);
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.angel-numbers-explained {
+  color:rgb(97, 97, 100);
+  font-size: 22px;
+  text-align: center;
+}
+
+.angel-number-example {
+  color:rgb(97, 97, 100);
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.example-times {
+  color:rgb(97, 97, 100);
+  font-size: 25px;
+  text-align: center;
+  margin: 40px;
+}
+
+.explain-box {
+  border: 4px solid rgb(93, 93, 96);
+  background-color: rgba(240, 248, 255, 0.477);
+  margin-top: 120px;
 }
